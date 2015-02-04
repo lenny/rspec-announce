@@ -1,6 +1,8 @@
 # Rspec::Announce
 
-Adds the ```announce(msg, &blk)``` to facilitate Cucumber style output without Cucumber (and separate step definitions).
+Adds ```announce(msg)``` to Rspec examples to facilitate Cucumber style output without Cucumber (and separate step definitions).
+
+Describe a block of code and see the description in Rspec output.
 
 ## Why?
 
