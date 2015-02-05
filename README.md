@@ -7,7 +7,7 @@ Describe a block of code and see the description in Rspec output.
 ## Why?
 
 Integration/feature specs can be very slow. For such specs, I sometimes find it worthwhile to
-compromise on the "single expectation per example" thing, in the interest of speed. I 
+compromise on the "single expectation per example" thing in the interest of speed. I 
 often prefer to chain naturally sequenced scenarios together to avoid multiple setups, but doing
 so can make it hard to see the story amongst the details. 
 
@@ -82,7 +82,7 @@ Outputs:
 
 ## Usage
 
-    $ echo "--format Rspec::Announc::Formatter" >> $PROJECT_HOME/.rspec
+    $ echo "--format Rspec::Announce::Formatter" >> $PROJECT_HOME/.rspec
 
 
 ## Contributing
